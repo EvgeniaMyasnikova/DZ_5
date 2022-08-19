@@ -20,7 +20,7 @@ double[] testArray = GetDoubleArray (size);
 Console.WriteLine($"[{String.Join("  ", testArray)}]");
 
 double max = testArray[0];
-double min = testArray[1];
+double min = testArray[0];
 for (int i = 0; i < testArray.Length; i++)
 {
     if (testArray[i] > max) max = testArray[i];
